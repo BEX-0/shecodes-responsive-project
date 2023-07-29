@@ -5,6 +5,24 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    transition: 200ms all ease-in-out;
+}
+
+footer {
+    font-size: 20px;
+}
+
+footer a {
+    color: #bb0303;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: white;
+}
+
 h1,
 h3 {
     margin: 0;
@@ -42,13 +60,7 @@ h3 strong {
     font-family: "Edu SA Beginner", cursive;
 }
 
-.social-icon-links {
-    font-size: 30px;
-    padding-top: 200px;
-}
-
 .navigation-links a {
-    text-decoration: none;
     color: white;
     font-size: 20px;
     background-color: rgb(255, 255, 255, 0.1);
@@ -59,4 +71,9 @@ h3 strong {
 
 .navigation-links a:hover {
     color: #bb0303;
+}
+
+.social-icon-links {
+    font-size: 30px;
+    padding-top: 200px;
 }
