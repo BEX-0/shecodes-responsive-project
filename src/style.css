@@ -1,3 +1,7 @@
+:root {
+    --main-red: #bb0303;
+}
+
 body {
     background-color: black;
     color: white;
@@ -15,7 +19,7 @@ footer {
 }
 
 footer a {
-    color: #bb0303;
+    color: var(--main-red);
     font-weight: 600;
 }
 
@@ -30,7 +34,7 @@ h3 {
 
 h1 {
     font-size: 80px;
-    color: #bb0303;
+    color: var(--main-red);
 }
 
 h1 small {
@@ -44,7 +48,7 @@ h3 {
 }
 
 h3 strong {
-    color: #bb0303;
+    color: var(--main-red);
 }
 
 .header {
@@ -52,7 +56,7 @@ h3 strong {
 }
 
 .navbar-brand {
-    color: #bb0303;
+    color: var(--main-red);
     margin-left: 30px;
 }
 
@@ -65,15 +69,35 @@ h3 strong {
     font-size: 20px;
     background-color: rgb(255, 255, 255, 0.1);
     padding: 5px 10px;
-    border: 3px inset #bb0303;
+    border: 3px inset var(--main-red);
     border-radius: 7px;
 }
 
 .navigation-links a:hover {
-    color: #bb0303;
+    color: var(--main-red);
 }
 
 .social-icon-links {
     font-size: 30px;
     padding-top: 200px;
+}
+
+@media (max-width: 576px) {
+    .header {
+        text-align: center;
+        padding-top: 50px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h1 small {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .navigation-links a {
+        display: flex;
+        justify-content: center;
+    }
 }
