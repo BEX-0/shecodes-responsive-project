@@ -57,7 +57,7 @@ h3 strong {
 }
 
 .header {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 hr {
@@ -102,8 +102,10 @@ p {
 }
 
 @media (max-width: 576px) {
-    .header {
+    body {
         text-align: center;
+    }
+    .header {
         padding-top: 50px;
     }
     h1 {
@@ -115,7 +117,7 @@ p {
     h3 {
         font-size: 30px;
     }
-    .navigation-links a {
+    .navigation-links a, .launch-link {
         display: flex;
         justify-content: center;
     }
