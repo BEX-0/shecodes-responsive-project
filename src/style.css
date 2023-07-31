@@ -37,9 +37,6 @@ h1 {
     color: var(--main-red);
 }
 
-h1 small {
-    font-size: 60px;
-}
 
 h2 {
     color: var(--main-red);
@@ -71,10 +68,6 @@ img {
 .navbar-brand {
     color: var(--main-red);
     margin-left: 30px;
-}
-
-.name {
-    font-family: "Edu SA Beginner", cursive;
 }
 
 .navigation-links a, .launch-link {
