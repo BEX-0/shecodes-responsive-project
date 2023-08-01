@@ -20,6 +20,10 @@ a {
     font-size: 20px;
 }
 
+.first-project {
+    padding-top: 150px;
+}
+
 footer {
     font-size: 15px;
 }
@@ -59,12 +63,8 @@ h3 strong {
     color: var(--main-red);
 }
 
-.header {
-    padding-top: 150px;
-}
-
-hr {
-    margin: 100px 0px;
+header {
+    padding: 150px 0px;
 }
 
 img {
