@@ -14,6 +14,11 @@ a {
     transition: 200ms all ease-in-out;
 }
 
+.contact-page-link a {
+    color: white;
+    font-size: 30px;
+}
+
 footer {
     font-size: 20px;
 }
@@ -79,7 +84,9 @@ img {
     border-radius: 7px;
 }
 
-.navigation-links a:hover, .launch-link:hover {
+.navigation-links a:hover, 
+.launch-link:hover,
+.contact-page-link a:hover {
     color: var(--main-red);
 }
 
