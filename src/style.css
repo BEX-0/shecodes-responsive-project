@@ -119,6 +119,11 @@ p {
     font-size: 30px;
 }
 
+.col-md-6 ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
 @media (max-width: 576px) {
     body {
         text-align: center;
