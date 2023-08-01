@@ -89,6 +89,7 @@ img {
 .launch-link:hover,
 .contact-page-link a:hover {
     color: var(--main-red);
+    border: 3px outset var(--main-red);
 }
 
 p {
