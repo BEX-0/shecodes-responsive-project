@@ -72,12 +72,20 @@ img {
     margin-bottom: 15px;
 }
 
+.launch-links {
+    margin-bottom: 100px;
+}
+
+.launch-links a {
+    margin: 10px;
+}
+
 .navbar-brand {
     color: var(--main-red);
     margin-left: 20px;
 }
 
-.navigation-links a, .launch-link {
+.navigation-links a, .launch-links a {
     color: white;
     font-size: 20px;
     background-color: var(--dark-gray);
@@ -87,7 +95,7 @@ img {
 }
 
 .navigation-links a:hover, 
-.launch-link:hover,
+.launch-links a:hover,
 .contact-page-link a:hover {
     color: var(--main-red);
     border: 3px outset var(--main-red);
@@ -120,7 +128,10 @@ p {
     h3 {
         font-size: 30px;
     }
-    .navigation-links a, .launch-link {
+    .launch-links {
+        margin-bottom: 50px;
+    }
+    .navigation-links a, .launch-links a {
         display: flex;
         justify-content: center;
     }
