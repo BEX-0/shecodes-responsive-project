@@ -1,5 +1,6 @@
 :root {
     --main-red: #bb0303;
+    --dark-gray: rgb(255, 255, 255, 0.1);
 }
 
 body {
@@ -14,13 +15,17 @@ a {
     transition: 200ms all ease-in-out;
 }
 
+.bottom-bar {
+    background-color: #2B3035;
+}
+
 .contact-page-link a {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 footer {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 footer a {
@@ -72,13 +77,13 @@ img {
 
 .navbar-brand {
     color: var(--main-red);
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .navigation-links a, .launch-link {
     color: white;
     font-size: 20px;
-    background-color: rgb(255, 255, 255, 0.1);
+    background-color: var(--dark-gray);
     padding: 5px 10px;
     border: 3px inset var(--main-red);
     border-radius: 7px;
@@ -97,8 +102,8 @@ p {
 }
 
 .social-icon-links {
+    margin-top: 200px;
     font-size: 30px;
-    padding-top: 200px;
 }
 
 @media (max-width: 576px) {
