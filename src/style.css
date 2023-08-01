@@ -15,10 +15,6 @@ a {
     transition: 200ms all ease-in-out;
 }
 
-.bottom-bar {
-    background-color: #2B3035;
-}
-
 .contact-page-link a {
     color: white;
     font-size: 20px;
