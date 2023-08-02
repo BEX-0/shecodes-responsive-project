@@ -71,6 +71,10 @@ header {
     padding: 150px 0px;
 }
 
+i {
+    color: var(--main-red);
+}
+
 img {
     border-radius: 5px;
     margin-bottom: 15px;
