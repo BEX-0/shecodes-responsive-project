@@ -24,6 +24,10 @@ a {
     font-size: 20px;
 }
 
+.contact-page-link a:hover {
+    color: var(--main-red);
+}
+
 #first-row {
     margin-top: 120px;
 }
@@ -88,6 +92,16 @@ img {
     margin: 10px;
 }
 
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Edu SA Beginner', cursive;
+    color: var(--main-red);
+    margin: 0px 40px;
+    padding: 0px 10px;
+    border: 1px solid var(--main-red);
+}
+
 .navbar-brand {
     color: var(--main-red);
     margin-left: 20px;
@@ -107,7 +121,32 @@ img {
     color: var(--main-red);
     border: 3px outset var(--main-red);
 }
-.contact-page-link a:hover {
+
+nav {
+    background-color: #1C1E1F;
+    margin: 0px;
+    padding: 10px;
+    line-height: 50px;
+    justify-content: space-between;
+    border-bottom: 1px solid #383D3F;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover, nav a.active {
     color: var(--main-red);
 }
 
@@ -158,6 +197,16 @@ p {
     .navigation-links a, .launch-links a {
         display: flex;
         justify-content: center;
+    }
+    nav {
+        justify-content: center;
+    }
+    nav li {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .logo {
+        margin: 0px 5px 0px 0px;
     }
     .project-img {
         width: 100%;
