@@ -19,6 +19,17 @@ a {
     margin-top: 200px;
 }
 
+.bottom-bar i {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background-color: var(--dark-gray);
+}
+
+.bottom-bar i:hover {
+    color: white;
+}
+
 .contact-page-link a {
     color: white;
     font-size: 20px;
@@ -77,7 +88,9 @@ header {
 
 i {
     color: var(--main-red);
+    transition: 200ms all ease-in-out;
 }
+
 
 img {
     border-radius: 5px;
