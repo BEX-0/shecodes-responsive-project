@@ -21,13 +21,13 @@ a {
 
 .bottom-bar i {
     padding: 10px;
-    border: 1px solid transparent;
-    border-radius: 30px;
-    background-color: var(--dark-gray);
+    border: 1px solid var(--main-red);
+    border-radius: 40px;
 }
 
 .bottom-bar i:hover {
     color: white;
+    border-color: white;
 }
 
 .contact-page-link a {
